@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.cabecalho {
+    background-color:  #db9df2;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho-lista-item{
+	display: inline-block;
+	margin: 0 16px;                            
+	font-size: 24px;
+}
+
+
+/* inicio da seção escola */
+.escola-imagem{
+	width: 25%;
+}
+
+.escola{
+	background-image: linear-gradient(#db9df2,#f9fbfc);
+	color: black;
+    font-size: 12px;
+	display : flex;
+	justify-content: center;
+	align-items: center; 	
+	padding: 24px 0;
+}
+
+.escola-div-conteudo{
+	width: 35%;
+}
+
+.escola-titulo {  
+	padding: 24px 0;
+}
+
+
+
+/* estudante ... gatinhos */
+.estudante{
+    padding: 24px 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    background: #db9df2;
+}
+.estudante-imagem{
+    width: 200px;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 70px 0;
+}
+
+.estudante-descricao{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+
+.estudante-icone{
+    width: 24px;
+    padding: 8px 8px;
+}
+
+
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+/* inicio do rodapé*/
+.rodape{
+    background-color:  #db9df2;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 50px;
+    padding: 12px 0;
+   
+}
