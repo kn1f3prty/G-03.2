@@ -18,8 +18,9 @@
 
 .cabecalho-lista-item{
 	display: inline-block;
-	margin: 0 16px;                            
-	font-size: 24px;
+	margin: 0 25px;                            
+	font-size: 20px;
+    padding: 15px 0px;
 }
 
 
@@ -62,9 +63,10 @@
 }
 
 .estudante-descricao{
-    text-align: center;
+    display: grid;
     padding-top: 10px;
     padding-bottom: 5px;
+
     
 }
 
@@ -73,15 +75,10 @@
     padding: 8px 8px;
 }
 
-.estudante-div{
-    text-align: center;
-    padding: 16px 0;
-}
-
 
 .estudante-todos{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 /* inicio do rodapé*/
@@ -94,4 +91,57 @@
     height: 50px;
     padding: 12px 0;
    
+}
+li {
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(0, 0, 0);
+}
+
+li.dropdown {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
 }
